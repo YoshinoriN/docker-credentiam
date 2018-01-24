@@ -1,0 +1,7 @@
+# General
+*.log
+*.tmp
+*.gz
+*.tar
+Thumbs.db
+.DS_Store
