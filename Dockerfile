@@ -14,4 +14,6 @@ RUN apt-get update \
  && rm -rf credentiam-0.0.1 \
  && chmod +x /usr/opt/credentiam/docker-entrypoint.sh
 
+VOLUME ["/usr/opt/credentiam"]
+
 ENTRYPOINT "/usr/opt/credentiam/docker-entrypoint.sh"
